@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Other351_MyTelegram</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="settings_default_username">Yura Petrov</string>
+    <string name="settings_default_status">в сети</string>
+    <string name="settings_text_account">Аккаунт</string>
+    <string name="settings_default_number">+791111111111</string>
+    <string name="settings_default_email">123456@mail.ru</string>
+    <string name="settings_label_phone_number">Нажмите, чтобы изменить номер телефона</string>
+    <string name="settings_label_phone_email">Нажмите, чтобы изменить электронную почту</string>
+    <string name="settings_default_login">yurapetrov</string>
+    <string name="settings_label_login">Имя пользователя</string>
+    <string name="settings_default_bio">О себе</string>
+    <string name="settings_label_bio">Напишите немного о себе</string>
+    <string name="settings_menu_change_name">Изменить имя</string>
+    <string name="settings_menu_exit">Выход</string>
+    <string name="cd_register_image">register_image</string>
+    <string name="register_text_enter_code">Введите код</string>
+    <string name="register_text_we_sent">Мы отправили SMS с кодом проверки на ваш телефон</string>
+    <string name="register_hint_default_code">- - - - - -</string>
+    <string name="register_title_your_phone">Ваш телефон</string>
+    <string name="register_toast_enter_phone">Введите номер телефона</string>
+    <string name="register_toast_enter_email_and_password">Пожалуйста, введите почту и пароль</string>
+    <string name="register_toast_user_has_successfully_registered">Пользователь успешно зарегистировался</string>
+    <string name="register_toast_user_NOT_registered">Пользователь НЕ зарегистировался</string>
+    <string name="register_toast_check_your_email_and_confirm_your_email">Проверьте вашу почту и подтвердите E-mail</string>
+    <string name="register_toast_mail_check_failed">Проверка почты не удалась</string>
+    <string name="register_phone_hint">-------------</string>
+    <string name="settings_hint_input_name">Имя</string>
+    <string name="settings_hint_input_surname">Фамилия</string>
+    <string name="settings_toast_name_is_empty">Имя не может быть пустым</string>
+    <string name="toast_data_update">Данные обновлены</string>
+    <string name="settings_hint_input_username">username</string>
+    <string name="settings_input_bio">bio</string>
+    <string name="clear_chat">Очистить чат</string>
+    <string name="delete_chat">Удалить чат</string>
+    <string name="create_group">Создать группу</string>
+    <string name="bSingUp">Зарегистрироваться</string>
+    <string name="bSingIn">Войти</string>
+    <string name="edLoginHint">Email</string>
+    <string name="edPasswordHint">Пароль</string>
+    <string name="btnSingEMail">E-mail</string>
+    <string name="btnSingPhone">Телефон</string>
+    <string name="settigns_hint_input_name">Имя</string>
+    <string name="settigns_hint_input_surname">Фамилия</string>
+
+    <plurals name="count_members">
+        <item quantity="one">%d участник</item>
+        <item quantity="few">%d участника</item>
+        <item quantity="many">%d участников</item>
+        <item quantity="other">%d участников</item>
+    </plurals>
+
+    <!--    Это фрагмент Cropping-->
+    <string name="app_title">Обрезка изображений</string>
+    <string name="result_image_desc">результат обрезки</string>
+
+    <string name="main_drawer_load">Загрузить изображение для обрезки</string>
+    <string name="main_drawer_open">Открыть панель навигации</string>
+    <string name="main_drawer_close">Закрыть панель навигации</string>
+
+    <string name="main_action_crop">ОБРЕЗАТЬ</string>
+    <string name="main_action_rotate">Повернуть на 90 градусов по часовой стрелке</string>
+    <string name="main_action_flip">Отразить</string>
+    <string name="main_action_flip_horizontally">Отразить по горизонтали</string>
+    <string name="main_action_flip_vertically">Отразить по вертикали</string>
+    <string name="drawer_option_title">Предустановки кадрирования</string>
+    <string name="drawer_option_oval">Круг</string>
+    <string name="drawer_option_rect">Прямоугольник</string>
+    <string name="drawer_option_min_max">Переопределение Мин/Макс пределов</string>
+    <string name="drawer_option_customized_overlay">Индивидуальное наложение</string>
+    <string name="drawer_option_scale_center">Центр шкалы внутри</string>
+    <string name="drawer_option_title2">Переключатели настройки</string>
+    <string name="drawer_option_toggle_scale">Масштаб изображения: %1s</string>
+    <string name="drawer_option_toggle_shape">Форма обрезки: %1s</string>
+    <string name="drawer_option_toggle_guidelines">Методические рекомендации: %1s</string>
+    <string name="drawer_option_toggle_aspect_ratio">Соотношение сторон: %1s</string>
+    <string name="drawer_option_toggle_auto_zoom">Автоматический зум: %1s</string>
+    <string name="drawer_option_toggle_max_zoom">Максимальный уровень масштабирования: %1s</string>
+    <string name="drawer_option_set_initial_crop_rect">Установить начальный прямоугольник обрезки</string>
+    <string name="drawer_option_reset_crop_rect">Сбросить прямоугольник обрезки до исходного</string>
+    <string name="drawer_option_toggle_multitouch">Мультитач: %1s</string>
+    <string name="drawer_option_toggle_show_overlay">Показать наложение: %1s</string>
+    <string name="drawer_option_toggle_show_progress_bar">Показать индикатор выполнения: %1s</string>
+
+    <string name="crop_image_activity_title"></string>
+    <string name="crop_image_menu_rotate_left">Повернуть налево</string>
+    <string name="crop_image_menu_rotate_right">Повернуть направо</string>
+    <string name="crop_image_menu_crop">Обрезать</string>
+    <string name="crop_image_menu_flip">Отразить</string>
+    <string name="crop_image_menu_flip_horizontally">Отразить по горизонтали</string>
+    <string name="crop_image_menu_flip_vertically">Отразить по вертикали</string>
+    <string name="pick_image_intent_chooser_title">Выбрать источник</string>
+
+    <string name="crop_image_activity_no_permissions">Отмена, необходимые разрешения не предоставлены</string>
+
+
+</resources>

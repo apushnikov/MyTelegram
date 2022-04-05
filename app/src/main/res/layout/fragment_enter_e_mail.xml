@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.screens.register.EnterEMailFragment">
+
+    <EditText
+        android:id="@+id/edEMail"
+        style="@style/editText"
+        android:hint="@string/edLoginHint"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edPassword"
+        style="@style/editText"
+        android:hint="@string/edPasswordHint"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/edEMail"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/edEMail"
+        app:layout_constraintTop_toBottomOf="@+id/edEMail" />
+
+    <Button
+        android:id="@+id/btnSingEMail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="@string/bSingUp"
+        app:layout_constraintEnd_toEndOf="@+id/edPassword"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edPassword"
+        app:layout_constraintTop_toBottomOf="@+id/edPassword" />
+
+    <Button
+        android:id="@+id/btnSingPhone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/bSingIn"
+        app:layout_constraintEnd_toEndOf="@+id/btnSingEMail"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/btnSingEMail"
+        app:layout_constraintTop_toBottomOf="@+id/btnSingEMail" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
